@@ -16,6 +16,6 @@ public class MpsParse implements Parse {
 
     @Override
     public Song parse(byte[] msg) {
-        return null;
+        return new Song("MS3","滴滴滴","zhh",2020L);
     }
 }

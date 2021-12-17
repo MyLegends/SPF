@@ -7,10 +7,16 @@
         <groupId>groupId</groupId>
         <version>1.0-SNAPSHOT</version>
     </parent>
-
-    <name>ParseParent</name>
     <modelVersion>4.0.0</modelVersion>
-    <artifactId>ParseParent</artifactId>
 
+    <artifactId>MP3Parse</artifactId>
+
+    <dependencies>
+        <dependency>
+            <artifactId>ParseParent</artifactId>
+            <groupId>groupId</groupId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
 
 </project>
